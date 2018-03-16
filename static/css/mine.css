@@ -1,0 +1,174 @@
+/**
+* personal codes
+*/
+body{
+    /* background: #f9faf5; */
+}
+
+
+*{
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.vertical-space{
+    padding: 10px;
+    padding-top: 0;
+}
+
+.myFont{
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.myTextDirection{
+    direction: rtl;
+    text-align: right;
+}
+.myTextDirection a{
+    /* padding-right: 10px;
+    margin-right: 10px; */
+}
+.myHr{
+    width: 50%;
+    transform: translateX(50%);
+}
+.myTitle{
+    font-size: 30px;
+    text-align: right;
+    transform: translateX(305%);
+    border-bottom: 3px solid #ececec;
+    margin-bottom: 6px;
+    padding-bottom: 8px;
+    width: 20%;
+}
+
+.each{
+    float: right;
+    /* border: 1px solid rgb(214, 214, 214); */
+    border-radius: 7px;
+    /* margin-right: 20px; */
+    box-shadow: 0px 0px 10px -4px black; 
+}
+.myRow{
+    text-align: center;
+}
+
+.ffa{
+    direction: rtl;
+    line-height: 36px;
+}
+
+.boold{
+    color: red;
+    font-size: 50px;
+}
+.caption{
+    font-size: 22px;
+}
+
+.myDirection{
+    direction: rtl;
+}
+
+.sBox{
+    /* background: blue; */
+    /* background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+    border: 1px solid rgb(161, 161, 161);
+    border-radius: 7px; */
+    /* left: 50%; */
+}
+.tag{
+    float: right;
+    direction: rtl;
+    color: #0099AE;
+}
+.tag a{
+    color: #0099AE;
+    text-decoration: none;
+}
+
+#action2 {
+    background-image: url(../images/home/tour-bg.png);
+    background-color: #fbfafa;
+    background-repeat: repeat;
+    height: 157px;
+    background-position: center;
+    display: table;
+    position: static;
+    width: 100%;
+}
+.count span {
+    font-size: 60px;
+    color: #00aeef;
+}
+.count h1{
+    display: inline;
+}
+
+.single-service img {
+    height: 120px;
+}
+
+.des{
+    float: left;
+    position:absolute;
+    margin-bottom: 40px;
+
+}
+
+.tag1{
+    float: right;
+    direction: rtl;
+    color: rgb(0, 0, 0);
+    padding: 0;
+}
+.tag1 a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+.cnt{
+    padding: 0;
+}
+
+.page-header{
+    text-align: right;
+}
+
+@media screen and (max-width: 767px){
+    .img-responsive{
+        display: inline-block;
+    }
+    .cnt{
+        display: block;
+    }
+    .bottom-separator div{
+        padding: 15px;
+    }
+    .bottom-separator{
+        display: inline-block;
+        width: 100%;
+    }
+    .bottom-separator button{
+        text-align: center;
+    }
+    .navbar-nav{
+        float: right;
+        direction: rtl;
+    }
+    .each{
+        margin: 10px 0;        
+    }
+    .tour-button{
+        background-position: top;
+        background-position-x: left;        
+    }
+    #action{
+        background-repeat: repeat;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 767px) {
+    .cnt{
+        display: inline-block;
+    }
+}
